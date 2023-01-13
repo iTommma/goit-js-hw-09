@@ -5,7 +5,7 @@ const elHours = document.querySelector('span[data-hours]');
 const elMinutes = document.querySelector('span[data-minutes]');
 const elSeconds = document.querySelector('span[data-seconds]');
 
-import Notiflix from 'notiflix';
+// import Notiflix from 'notiflix';
 
 // // імпортувати і нааштувати flatpickr
 import flatpickr from 'flatpickr';
