@@ -9,7 +9,7 @@ const elForm = document.querySelector('form');
 let position = 0;
 // console.log(elForm);
 
-elForm.addEventListener('submit', () => {
+elForm.addEventListener('submit', (event) => {
   // виявляєм подію квік
   event.preventDefault(); // вимикаєм стандартні події
 
